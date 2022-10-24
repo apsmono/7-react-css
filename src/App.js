@@ -1,10 +1,8 @@
-import CustomizedButton from "./components/button";
-import TryParagraph from "./pages/tryParagraph";
-
+import ThemeTry01 from "./themes/themes-try-01";
 function App() {
 	return (
 		<>
-			<CustomizedButton />
+			<ThemeTry01 />
 		</>
 	);
 }
