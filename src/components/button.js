@@ -1,4 +1,4 @@
-import React, { useEffect, useRef, useState } from "react";
+import React, { useEffect, useState } from "react";
 
 function CustomizedButton() {
 	const [counter, setcounter] = useState(0);
@@ -22,7 +22,6 @@ function CustomizedButton() {
 			style={{
 				display: "flex",
 				// flex: 1,
-				flexDirection: "column",
 				alignItems: "center",
 				justifyContent: "center",
 				border: "1px solid black",
